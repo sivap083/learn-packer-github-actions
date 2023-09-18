@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 source "amazon-ebs" "ubuntu-lts" {
   region = "us-west-1"
   source_ami_filter {
